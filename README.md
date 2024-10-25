@@ -1,6 +1,6 @@
-![CI](https://github.com/eslazarev/vwap/workflows/CI/badge.svg)
-![Pylint](https://github.com/eslazarev/vwap/blob/main/.github/badges/pylint.svg)
-![Coverage](https://github.com/eslazarev/vwap/blob/main/.github/badges/coverage.svg)
+![CI](https://github.com/eslazarev/vwap-backtrader/workflows/CI/badge.svg)
+![Pylint](https://github.com/eslazarev/vwap-backtrader/blob/main/.github/badges/pylint.svg)
+![Coverage](https://github.com/eslazarev/vwap-backtrader/blob/main/.github/badges/coverage.svg)
 
 
 # Volume Weighted Average Price (VWAP) Indicators for Backtrader
