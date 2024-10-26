@@ -11,10 +11,10 @@ This project demonstrates the use of Volume Weighted Average Price (VWAP) indica
 
 ## Table of Contents
 
-1. [About the Indicators](#about-the-indicators)
-2. [Indicator Code and Explanation](#indicator-code-and-explanation)
-3. [Installation and Setup](#installation-and-setup)
-4. [Running the Project](#running-the-project)
+- [About the Indicators](#about-the-indicators)
+- [Indicator Code and Explanation](#indicator-code-and-explanation)
+- [Installation and Setup](#installation-and-setup)
+- [Running the Project](#running-the-project)
 
 ---
 
@@ -35,6 +35,8 @@ This project includes two VWAP indicators:
 ### VWAP Intraday Indicator
 
 Calculates daily VWAP based on the high, low, and close price averages, adjusting at the start of each new day.
+
+![Vwap Intraday](.github/images/vwap_intraday.png)
 
 ```python
 
@@ -74,6 +76,10 @@ class VwapIntradayIndicator(bt.Indicator):
 
 ### VWAP Rolling Indicator
 
+Provides a VWAP over a rolling window of n periods, ensuring a continuously updated VWAP value.
+
+![Vwap Rolling](.github/images/vwap_rolling.png)
+
 ```python
 
 class VwapRollingIndicator(bt.Indicator):
@@ -102,7 +108,7 @@ class VwapRollingIndicator(bt.Indicator):
 
 To download the project, run:
 ```bash
-git https://github.com/eslazarev/vwap-backtrader.git
+git clone https://github.com/eslazarev/vwap-backtrader.git
 cd vwap-backtrade
 ```
 
@@ -112,7 +118,7 @@ This project relies on Python and several libraries. Install dependencies by run
 pip install -r requirements.txt
 ```
 
-### 3. Running the Project
+## Running the Project
 The main script src/main.py applies the VWAP indicators within trading strategies for visualization. Run it with:
 
 ```bash
